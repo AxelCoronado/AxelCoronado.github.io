@@ -1,0 +1,50 @@
+<!--
+    Alumno: Axel Ricardo Coronado Sánchez
+    Fecha: 15/10/2023
+-->
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" type="text/css" href="css/calculadora.css" />
+		<title>Actividad 16</title>
+	</head>
+	<body background="img/calculadora.png">
+		<div>
+			<label>
+				<h2>
+					Esta calculadora fue desarrollada por Axel Ricardo Coronado Sánchez, alumno del ITL en la
+					carrera de ISC.
+				</h2>
+			</label>
+		</div>
+		<div>
+			<button class="lim" id="limpiar">C</button>
+			<input type="text" id="recibir" disabled />
+		</div>
+		<div>
+			<button class="num" id="siete" onclick="sendSiete()">7</button>
+			<button class="num" id="ocho" onclick="sendOcho()">8</button>
+			<button class="num" id="nueve" onclick="sendNueve()">9</button>
+			<input type="button" id="boton" onClick="operacion('dividir')" value="/" />
+
+			<button class="num" id="cuatro" onclick="sendCuatro()">4</button>
+			<button class="num" id="cinco" onclick="sendCinco()">5</button>
+			<button class="num" id="seis" onclick="sendSeis()">6</button>
+			<input type="button" id="boton" onClick="operacion('multiplicar')" value="x" />
+
+			<button class="num" id="uno" onclick="sendUno()">1</button>
+			<button class="num" id="dos" onclick="sendDos()">2</button>
+			<button class="num" id="tres" onclick="sendTres()">3</button>
+			<input type="button" id="boton" onClick="operacion('restar')" value="-" />
+
+			<button class="num" id="cero" onclick="sendCero()">0</button>
+			<button class="num" id="punto" onclick="sendPunto()">.</button>
+			<input type="button" id="boton" onClick="operacion('sumar')" value="+" />
+			<input type="button" id="boton" onClick="calcular()" value="=" />
+		</div>
+		<!--Script-->
+		<script type="text/javascript" src="javascript proyects/js/Calculadora.js"></script>
+	</body>
+</html>

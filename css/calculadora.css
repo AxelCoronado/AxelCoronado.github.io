@@ -1,0 +1,66 @@
+/*
+    Alumno: Axel Ricardo Coronado Sánchez
+    Fecha: 15/10/2023
+*/
+body {
+	background-color: black;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 500px;
+	background-position: center;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 20px;
+}
+
+div label h2 {
+	color: white;
+	text-align: center;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	position: fixed;
+	top: 0;
+}
+
+.num {
+	font-size: 30px;
+	border-radius: 10px;
+	width: 74px;
+	height: 55px;
+	position: relative;
+	top: 236px;
+	left: -164px;
+	margin-bottom: 14px;
+}
+
+.lim {
+	font-size: 30px;
+	border-radius: 10px;
+	width: 74px;
+	height: 67px;
+	position: absolute;
+	top: 146px;
+	left: 508px;
+}
+
+#boton {
+	font-size: 30px;
+	border-radius: 10px;
+	width: 72px;
+	height: 55px;
+	position: relative;
+	top: 236px;
+	left: -162px;
+	background-color: #7b7a91;
+	font-weight: bold;
+}
+
+#recibir {
+	background-color: white;
+	font-size: 30px;
+	border-radius: 10px;
+	width: 220px;
+	height: 60px;
+	position: relative;
+	top: 138px;
+	left: 244px;
+}
